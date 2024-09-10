@@ -9,8 +9,8 @@ import styles from "./App.module.css";
 function App() {
 
   const router = createBrowserRouter([
-    {path: '/lizardGlobalPersonalApp', element: <Root/> },
-    { path: '/lizardGlobalPersonalApp/posts/:id', element: <PostDetail /> },
+    {path: '/PostListingsApp', element: <Root/> },
+    { path: '/PostListingsApp/posts/:id', element: <PostDetail /> },
   ])
 
   return <div className = {styles.container} >{

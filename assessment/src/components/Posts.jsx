@@ -23,12 +23,12 @@ function Posts({ post, showSummary = false }){
             
 
             <div className = {styles.titleContainer}  onMouseEnter={()=> setMoreDetails(true)} onMouseLeave={()=> setMoreDetails(false)}>
-                <Link to={`/lizardGlobalPersonalApp/posts/${post.id}`}>
+                <Link to={`/PostListingsApp/posts/${post.id}`}>
                     <h1 className={styles.title}>{post.title} </h1>
                 </Link>
                 <div className = {styles.moreDetails}>
 
-                    {(moreDetails && !showSummary) &&<Link to={`/lizardGlobalPersonalApp/posts/${post.id}`}><h3>{`More details →`}</h3></Link>}
+                    {(moreDetails && !showSummary) &&<Link to={`/PostListingsApp/posts/${post.id}`}><h3>{`More details →`}</h3></Link>}
                 </div>
                 
       </div>

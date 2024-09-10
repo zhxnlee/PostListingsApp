@@ -38,13 +38,10 @@ function PostDetail() {
 
   return (
     <div className = {styles.container}>
-        <div className = {styles.logo}>
-            <a href = "https://www.lizard.global/"><img src = {logo} alt = "lizardlogo" /></a>
-        </div>
         <div className = {styles.post}>
             <Posts post={post} showSummary={true} />
             <div className = {styles.backButton}>
-                <button onClick = {()=> navigate('/lizardGlobalPersonalApp')}>Back</button>  
+                <button onClick = {()=> navigate('/PostListingsApp')}>Back</button>  
             </div>     
         </div>
 
