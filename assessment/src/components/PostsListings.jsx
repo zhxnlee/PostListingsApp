@@ -57,9 +57,7 @@ function PostsListings(){
                 
         <div className = {styles.container}>
          
-            <div className = {styles.logo}>
-            <a href = "https://www.lizard.global/"><img src = {logo} alt = "lizardlogo" /></a>
-            </div>
+            
 
             <div className = {styles.content}>
 
